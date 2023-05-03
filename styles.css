@@ -1,0 +1,118 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.banner p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.banner img {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+}
+
+/* Home page styles */
+.home-header {
+  background-image: url('./assets/van_gogh_self_portrait.jpg');
+}
+
+.home-banner {
+  background-image: url('./assets/starry_night.jpg');
+}
+
+.home-banner h2 {
+  font-size: 4rem;
+}
+
+.home-banner p {
+  font-size: 2rem;
+}
+
+.home-banner img {
+  top: 1rem;
+  right: 1rem;
+}
+
+.home-sunflowers {
+  background-image: url('./assets/sunflowers.jpg');
+}
+
+/* Art page styles */
+.art-header {
+  background-image: url('./assets/van_gogh_almond_blossom.jpg');
+}
+
+.art-banner {
+  background-image: url('./assets/the_cafe_terrace_at_night.jpg');
+}
+
+.art-banner h2 {
+  font-size: 4rem;
+}
+
+.art-banner p {
+  font-size: 2rem;
+}
+
+.art-banner img {
+  top
